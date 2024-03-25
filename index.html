@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoppers Start</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../E-commerce Shoppers start/images/shopify.png">
+    <!-- <link rel="stylesheet" href="../css/PracticeStyle"> -->
+    <!--not able to connect-->
+    <!--should add a comparison table-->
+    <link rel="stylesheet" href="Style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!--i'm facing many challenges to make a responsive website from scratch without following a tutorial-->
+    <!-- <script>
+        const toggleButton=document.getElementsByClassName('toggle-button')[0]
+        const Toggle=document.getElementsByClassName('toggle')[0]
+
+        toggleButton.addEventListener('click', ()=>{
+         Toggle.classList.toggle('active')
+        })
+    </script> -->
+  </head>
+<body >
+    <!-- <div> -->
+  <div id="main">
+   <header>
+    <nav class="nav">
+      <div class="main-icon">
+        <i class="fa-brands fa-shopify"><span>𝙎𝙝𝙤𝙥𝙥𝙚𝙧𝙨 𝙎𝙩𝙖𝙧𝙩</span></i><i class="fa-brands fa-shopify"></i>
+      </div>
+          
+      <a href="javascript:void(0);" class="toggle-button" title="toggle-button" >
+        <!-- <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span> -->
+        <i class="fa-solid fa-bars fa-xl"></i>
+      </a><!--a cannot be given inside button-->
+      <!-- <script>
+        function Toggle() {
+          var x = document.getElementById("mytoggle");
+          if (x.className === "toggle") {
+            x.className += " responsive";
+          } else {
+            x.className = "toggle";
+          }
+        }
+        </script> -->
+        <!-- <div class="tog"> -->
+     <div class="toggle" id="mytoggle">
+      <!-- <div class="item"> -->
+          <!--a tags cannot be dropdowns-->
+          <div title="home"  class="button item"><!--click works only when cursor is taken over words i have to fix this-->
+            <a href="#Home" class="items"><i class="fa-solid fa-house"><span>𝐻𝑜𝓂𝑒</span></i></a>
+          </div>
+          <div class="drop-down item ">
+            <div class="items button" title="Category">
+              <i class="fa-solid">𝒞𝒶𝓉𝑒𝑔𝑜𝓇𝓎</i>
+            </div>
+            <div class="drop-menu">
+              <a class="drop-menu-item" href="#Women" title="dresses">𝒲𝑜𝓂𝑒𝓃</a>
+              <a class="drop-menu-item" href="#Kids" title="kids"> 𝒦𝒾𝒹𝓈 </a>
+              <a class="drop-menu-item" href="#Men" title="pants"> 𝑀𝑒𝓃 </a>
+            </div>
+          </div>
+          <div class="item button" title="user"><!--it was given as a tip to give type of button-->
+            <a href="Loginform1.html" class="items" title="user"><i class="fa-solid fa-user"><span>𝒰𝓈𝑒𝓇</span></i></a>
+          </div>
+          <div class="item button" title="contact"><a href="#contact" class="items" title="contact"><i class="fa-solid"><span>𝒞𝑜𝓃𝓉𝒶𝒸𝓉</span></i></a></div>
+        
+        <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+        <div class="item button" title="cart" >
+          <a href="#Cart" class="items" title="cart"><i class="fa-solid fa-cart-shopping icart"><span >𝒞𝒶𝓇𝓉</span></i></a>
+        </div>
+      <!-- </div> -->
+    </div>
+    <!-- </div> -->
+      <input type="text" class="item" placeholder="𝒮𝑒𝒶𝓇𝒸𝒽.." id="mysearchbar"/><!--add onkeyup="filterfunc()"-->
+        <i class="fa-solid fa-magnifying-glass fa-bounce item"id="mysearchcon"></i>
+  </nav>
+     <a name="Back-to-top"></a>
+  </header>
+    <main>
+     <div class="container">
+       <div class="excontainer">
+        <section class="containerc">
+          <div class="slider-wrap">
+            <div class="slider">
+              <video id="slide1" autoplay loop >
+                <source src="../E-commerce Shoppers start/images/Modern Fashion Special Offer (Flyer).mp4">
+                 <source src="../E-commerce Shoppers start/images/Modern Fashion Special Offer (Flyer).webm"><!--just in case your browser does not suppert mp4 file-->
+                  this browser does not support html5 audio
+              </video>
+              <img id="slide2" src="../E-commerce Shoppers start/images/Minimal Fashion Spring Summer Collection Flyer.png" alt="image">
+            </div>
+            <div class="slider-nav">
+             <a href="#slide1" title="slide1"></a>
+             <a href="#slide2" title="slide2"></a>
+            </div>
+          </div>
+        </section>
+      </div>
+     </div>
+     <div class="trend">
+     <p class="fonttrend">🆃🆁🅴🅽🅳🅸🅽🅶 🅽🅾🆆!</p>
+     </div>
+    <div class="grid"> 
+     <div class="grid-cards">
+       <div class="brand-item">
+          <img src="../E-commerce Shoppers start/images/woman-in-jean-jacket.jpg" alt="image">
+          <span>Price:₹999</span>
+          <div class="but">
+           <div class="button"><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+          </div>
+       </div>
+       <div class="brand-item">
+          <img src="../E-commerce Shoppers start/images/woman-portrait-on-pink-brick.jpg" alt="image">
+          <span>Price:₹1999</span>
+          <div class="but">
+           <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+           </div>
+       </div>
+       <div class="brand-item">
+          <img src="../E-commerce Shoppers start/images/hands-on-hips-girls-fashion.jpg" alt="image">
+          <span>Price:₹799</span>
+          <div class="but">
+           <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+           </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/dress.jpg" alt="image">
+        <span>Price:₹1499</span>
+        <div class="but">
+         <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/dress1.jpg" alt="image">
+        <span>Price:₹999</span>
+        <div class="but">
+         <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/fullsleevstshirt.jpg" alt="image">
+        <span>Price:₹999</span>
+        <div class="but">
+         <div class="button"><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/jacket.jpg" alt="image">
+        <span>Price:₹2999</span>
+        <div class="but">
+         <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/jacket1.jpg" alt="image">
+        <span>Price:₹3999</span>
+        <div class="but">
+         <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/jeans.jpg" alt="image">
+        <span>Price:₹2499</span>
+        <div class="but">
+         <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+          <img src="../E-commerce Shoppers start/images/kid1.jpg" alt="image">
+          <span>Price:₹999</span>
+          <div class="but">
+           <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+           </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/kid2.jpg" alt="image">
+        <span>Price:₹1299</span>
+        <div class="but">
+         <div class="button"><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/kid3.jpg" alt="image">
+        <span>Price:₹1999</span>
+        <div class="but">
+         <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/kid4.jpg" alt="image">
+        <span>Price:₹1199</span>
+        <div class="but">
+         <div class=" button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/kid5.jpg" alt="image">
+        <span>Price:₹1599</span>
+        <div class="but">
+         <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/kid6.jpg" alt="image">
+        <span>Price:₹3599</span>
+        <div class="but">
+         <div class="button"><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/kid7.jpg" alt="image">
+        <span>Price:₹799</span>
+        <div class="but">
+         <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/kids.jpg" alt="image">
+        <span>Price:₹1949</span>
+        <div class="but">
+         <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/men1.jpg" alt="image">
+        <span>Price:₹1999</span>
+        <div class="but">
+         <div class="button"><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/pant.jpg" alt="image">
+        <span>Price:₹1599</span>
+        <div class="but">
+         <div class="button"><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/shirt.jpg" alt="image">
+        <span>Price:₹1299</span>
+        <div class="but">
+         <div class="button"><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/shirt2.jpg" alt="image">
+        <span>Price:₹1999</span>
+        <div class="but">
+         <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/traditional.jpg" alt="image">
+        <span>Price:₹2999</span>
+        <div class="but">
+         <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+        <img src="../E-commerce Shoppers start/images/traditional1.jpg" alt="image">
+        <span>Price:₹2999</span>
+        <div class="but">
+         <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="brand-item">
+         <img src="../E-commerce Shoppers start/images/tshirt.jpg" alt="image">
+         <span>Price:₹3999</span>
+         <div class="but">
+           <div class="button" ><a href="#addToCart"><i class="fa-solid fa-cart-shopping icart ">𝒶𝒹𝒹 𝓉𝑜 𝒸𝒶𝓇𝓉</i></a></div>
+         </div>
+       </div>
+       <div class="emp"></div>
+      </div>
+    </div>
+   </div>
+  </main>
+   <!-- </div> -->
+     <footer class="foot" id="contact">
+      <div class="empty">
+        <a href="#Back-to-top">𝐵𝒶𝒸𝓀 𝓉𝑜 𝓉𝑜𝓅<i class="fa-solid fa-arrow-up fa-bounce"></i></a><!--href="#" will work but it's not working here as there are two scrollbars we have to fix this by fixing footer at the bottom-->
+       </div><!--try to add this back to top anywhere and stick it there-->
+      <ul class="fooot">
+        <li class="fontsize">𝑅𝑒𝒶𝒸𝒽 𝓊𝓈 𝒶𝓉:</li>
+        <li><a href="#phone" class="fontsize"><i class="fa-solid fa-phone">𝒫𝒽𝑜𝓃𝑒</i></a></li>
+        <li><a href="#mail" class="fontsize"><i class="fa-solid fa-envelope ">𝐸𝓂𝒶𝒾𝓁</i></a></li>
+      </ul>
+      <p class="footfont">©2023 by Hithyshi Kandula|All rights reserved.</p>
+     </footer>
+  </body>
+</html>
