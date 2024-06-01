@@ -77,6 +77,10 @@
   .button:hover{
     background:rgb(253, 230, 238);
   }
+  .button a{
+    text-decoration: none;
+    color: black;
+  }
   .cart {
     position: realative;
     margin-top: 1vh;
